@@ -1,0 +1,229 @@
+.top-big-box {
+  height: 250px;
+  background: #fbfbfb;
+}
+
+.top-big-left-box {
+  width: 261px;
+  height: 263px;
+  margin-left: 10px;
+  border-right: 1px solid rgba(70, 163, 88, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.top-big-left-box img {
+  margin-top: 25px;
+  margin-left: 8px;
+  margin-bottom: 17px;
+  width: 80px;
+  height: 80px;
+}
+
+.top-big-left-box p {
+  margin-left: 8px;
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 94.118% */
+}
+
+.top-big-left-box span {
+  margin-left: 8px;
+  width: 204px;
+  height: 66px;
+  flex-shrink: 0;
+  color: #727272;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+
+.top-big-right-box {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-big-right-box p {
+  margin-top: 37px;
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+}
+
+.top-big-right-box span {
+  margin-top: 17px;
+  width: 354px;
+  height: 89px;
+  color: #727272;
+  font-family: "Cera Pro";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 169.231% */
+}
+
+/* form */
+
+.email-form {
+  margin-top: 18px;
+  width: 354px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.email-input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  color: black;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+
+.email-input:focus {
+  border-color: #46a358;
+}
+
+.join-btn {
+  padding: 10px 20px;
+  width: 85px;
+  height: 40px;
+  background-color: #45bc5d;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+}
+
+.join-btn:hover {
+  background-color: #5c9468;
+}
+
+/*  middle box */
+
+.middle-big-box {
+  background: rgba(70, 163, 88, 0.1);
+  height: 88px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.middle-big-box .middle-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 261px;
+}
+
+.middle-big-box .middle-box-logo {
+  width: 220px;
+  margin-left: 40px;
+}
+
+.middle-big-box .middle-box-logo img {
+  margin-right: 60px;
+}
+
+.middle-big-box .middle-box p {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+
+.bottom-big-box .bottom-box {
+  width: 261px;
+  height: 263px;
+  margin-left: 10px;
+  border-right: 1px solid rgba(70, 163, 88, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-big-box .bottom-box p {
+  color: #3d3d3d;
+  margin: 0;
+  padding: 0;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
+}
+
+.bottom-big-box .bottom-box .bottom-big-text {
+  margin: 31px 0 8px 0;
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+}
+
+.bottom-social-media {
+  width: 354px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 60px;
+}
+
+.bottom-social-media-header {
+  margin: 31px 0 8px 0;
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+}
+
+.bottom-payment-types {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+  margin-bottom: 13px;
+}
+
+.payment-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.payment-icons i {
+  margin: 8px 20px 8px 0;
+  font-size: 35px;
+}

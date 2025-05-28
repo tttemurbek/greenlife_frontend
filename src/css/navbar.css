@@ -1,0 +1,566 @@
+.home-navbar {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  background: url("/public/img/back2.png");
+  background-size: cover;
+}
+
+.home-navbar .navbar-container {
+  margin-top: 55px;
+  height: 642px;
+}
+
+.home-navbar .navbar-container .menu {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-navbar .navbar-container .menu .brand-logo {
+  width: 125px;
+  height: 30px;
+}
+
+.home-navbar .navbar-container .menu .links {
+  min-width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-navbar .navbar-container .menu .links .login-button {
+  background: #3776cc;
+  color: #f8f8ff;
+}
+
+.home-navbar .navbar-container .menu .user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 24px;
+}
+
+.home-navbar a {
+  text-decoration: none;
+}
+
+.home-navbar .hover-line a {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 100;
+}
+
+.home-navbar .underline {
+  display: block;
+  content: "";
+  border-bottom: solid 2px #000000;
+}
+
+.home-navbar .hover-line:after {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: block;
+  content: "";
+  border-bottom: solid 2px #000000;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.home-navbar .hover-line:hover:after {
+  transform: scaleX(1);
+}
+
+.home-navbar div.hover-line:after {
+  transform-origin: 0% 50%;
+}
+
+.home-navbar .navbar-container .header-frame {
+  margin-top: 50px;
+  height: 462px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-navbar .navbar-container .header-frame .detail {
+  margin-top: 35px;
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-navbar .navbar-container .header-frame .detail .head-main-text {
+  width: 600px;
+  height: 150px;
+
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 70px; /* 100% */
+  text-transform: uppercase;
+}
+
+.home-navbar .navbar-container .header-frame .detail .wel-txt {
+  width: 500px;
+  height: 45px;
+  flex-shrink: 0;
+
+  color: #000000;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+.home-navbar .navbar-container .header-frame .detail .service-txt {
+  margin-top: 23px;
+  width: 153px;
+  height: 23px;
+
+  font-family: "Roboto Serif";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.home-navbar .navbar-container .detail .signup {
+  margin-top: 44px;
+}
+
+.home-navbar .navbar-container .detail .signup .signup-button {
+  width: 210px;
+  height: 60px;
+  border-radius: 4px;
+  background: #1976d2;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #f8f8ff;
+}
+
+.home-navbar .navbar-container .logo-frame {
+  margin-top: 10px;
+  width: 690px;
+  height: 390px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  position: relative;
+}
+
+/* .home-navbar .navbar-container .logo-frame .logo-img {
+  width: 100%;
+  height: 100%;
+  background: url("/public/img/logo.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: invert(30%);
+} */
+
+.home-navbar .navbar-container .logo-frame .logo-img {
+  width: 518px;
+  height: 400px;
+  background: url("/public/img/1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* filter: invert(30%); */
+  margin-left: 300px;
+}
+
+.home-navbar .navbar-container .logo-frame .logo-img-mini {
+  width: 135px;
+  height: 135px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  position: absolute;
+  background: url("/public/img/1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* filter: invert(30%); */
+  bottom: 30px;
+}
+
+.other-navbar {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background: url("/public/img/back2.png");
+  background-size: cover;
+}
+
+.other-navbar .navbar-container {
+  margin-top: 55px;
+}
+
+.other-navbar .navbar-container .menu {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.other-navbar .navbar-container .menu .brand-logo {
+  width: 125px;
+  height: 30px;
+}
+
+.other-navbar .navbar-container .menu .links {
+  min-width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.other-navbar .navbar-container .menu .links .login-button {
+  background: #3776cc;
+  color: #f8f8ff;
+}
+
+.other-navbar .navbar-container .menu .user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 24px;
+}
+
+.other-navbar a {
+  text-decoration: none;
+}
+
+.other-navbar .hover-line a {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 100;
+}
+
+.other-navbar .underline {
+  display: block;
+  content: "";
+  border-bottom: solid 2px #000000;
+}
+
+.other-navbar .hover-line:after {
+  display: block;
+  content: "";
+  border-bottom: solid 2px #000000;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.other-navbar .hover-line:hover:after {
+  transform: scaleX(1);
+}
+
+.other-navbar div.hover-line:after {
+  transform-origin: 0% 50%;
+}
+
+/* Basket CSS */
+
+/* BASKET */
+
+.basket-frame {
+  position: relative;
+  padding: 20px; /* Increased padding for better spacing */
+  width: 500px; /* Adjusted width for balance */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* background: #f0f0f7;  */
+  /* border-radius: 20px;  */
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);  */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.basket-frame:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.basket-frame .all-check-box {
+  padding: 10px; /* Increased padding for better touch size */
+  width: 100%;
+  height: 45px; /* Increased height for better balance */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Proper spacing for elements */
+  background: #d7b586; /* Keep this as the primary color */
+  border: 1px solid #343434; /* Uniform border thickness */
+  border-radius: 12px; /* Rounded edges to match the frame */
+  color: #fff; /* White text for contrast */
+  font-weight: 600; /* Make the text bold for emphasis */
+  letter-spacing: 0.5px; /* Slightly spaced out for readability */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+}
+
+.basket-frame .all-check-box:hover {
+  background: #c39d60; /* Slight color change on hover */
+  cursor: pointer; /* Pointer to indicate interactivity */
+}
+
+.basket-frame .basket-info-box {
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Ensure proper alignment */
+  background: #fff; /* White background for the content area */
+  padding: 10px 15px; /* Add padding for content */
+  border-radius: 12px; /* Rounded corners to match the overall style */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08); /* Soft shadow */
+  transition: box-shadow 0.3s ease;
+}
+
+.basket-frame .basket-info-box:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow on hover */
+}
+
+.basket-frame .basket-info-box img {
+  max-width: 60px; /* Proper image sizing */
+  max-height: 60px;
+  border-radius: 8px; /* Rounded image corners */
+  margin-right: 15px;
+}
+
+.basket-frame .basket-info-box .info-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.basket-frame .basket-info-box .info-details p {
+  margin: 0;
+  color: #2c3e50; /* Dark text for readability */
+  font-weight: 500;
+}
+
+.basket-frame .basket-info-box .info-details .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e74c3c; /* Red price for emphasis */
+}
+
+@media screen and (max-width: 768px) {
+  .basket-frame {
+    width: 100%; /* Full width on smaller screens */
+    padding: 15px;
+  }
+
+  .basket-frame .all-check-box,
+  .basket-frame .basket-info-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.basket-info-box .product-img {
+  width: 70px; /* Slightly larger for better visibility */
+  height: 70px;
+  filter: drop-shadow(
+    0px 4px 6px rgba(0, 0, 0, 0.15)
+  ); /* Softer shadow for depth */
+  border-radius: 50%; /* Make the image fully circular */
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.basket-info-box .product-img:hover {
+  transform: scale(1.05); /* Slight zoom on hover for interactivity */
+  filter: drop-shadow(
+    0px 6px 8px rgba(0, 0, 0, 0.25)
+  ); /* Enhance shadow on hover */
+}
+
+.basket-info-box .product-name {
+  margin-left: 15px; /* Increased margin for more spacing */
+  width: auto; /* Allow more flexibility for text */
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; /* Slightly bolder font */
+  font-size: 18px;
+  line-height: 28px;
+  color: #2c3e50; /* Darker color for better readability */
+  transition: color 0.3s ease;
+}
+
+.basket-info-box .product-name:hover {
+  color: #34495e; /* Slightly change color on hover for a dynamic feel */
+}
+
+.basket-info-box .product-price {
+  width: auto; /* Flexible width */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; /* Bold weight for emphasis */
+  font-size: 18px; /* Slightly larger for better visibility */
+  line-height: 24px;
+  color: #e74c3c; /* Bright red for emphasis on price */
+  text-align: right; /* Align price to the right for better layout */
+  transition: color 0.3s ease;
+}
+
+.basket-info-box .product-price:hover {
+  color: #c0392b; /* Darker red on hover */
+}
+
+.basket-info-box
+  .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 8px 16px; /* More padding for better touch size */
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f0f0f7; /* Light background for better contrast */
+  border-radius: 8px;
+  border: 1px solid #dcdcdc; /* Subtle border for structure */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.basket-info-box
+  .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input:hover {
+  background-color: #e0e0e7; /* Slightly darker on hover */
+  border-color: #bcbcbc; /* Change border color on hover */
+}
+
+.basket-info-box .css-ece9u5 {
+  min-width: 80px; /* Adjusted for better flexibility */
+  padding: 8px 12px; /* Added padding for a more button-like appearance */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  background-color: #f0f0f7; /* Light background for contrast */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.basket-info-box .css-ece9u5:hover {
+  background-color: #e0e0e7; /* Slightly darker on hover */
+}
+
+.basket-frame .cancel-btn {
+  position: absolute;
+  top: 15px; /* Adjusted for better alignment */
+  right: 15px; /* Increased distance from edges */
+  cursor: pointer;
+  background-color: transparent; /* Make it transparent for better aesthetics */
+  border: none; /* Remove border */
+  font-size: 20px; /* Slightly larger font size */
+  color: #e74c3c; /* Red color to indicate action */
+  transition: color 0.3s ease;
+}
+
+.basket-frame .cancel-btn:hover {
+  color: #c0392b; /* Darker red on hover */
+}
+
+.basket-frame .basket-order {
+  margin-top: 15px; /* Increased margin for spacing */
+  width: 100%;
+  height: 70px; /* Adjusted height for better touch target */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Use space-between for better alignment */
+  align-items: center;
+  background: #ffffff; /* White background for contrast */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 10px; /* Padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.basket-order .price {
+  width: auto; /* Auto width for flexibility */
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; /* Bolder font for emphasis */
+  font-size: 22px; /* Increased size for visibility */
+  line-height: 30px;
+  color: #2c3e50; /* Darker text color for readability */
+}
+
+.basket-frame .orders-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; /* Changed to auto for better user experience */
+  background: #f8f8ff; /* Light background for visual comfort */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.basket-frame .orders-wrapper::-webkit-scrollbar {
+  width: 8px; /* Slightly thinner scrollbar */
+}
+
+.basket-frame .orders-wrapper::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color for the scrollbar thumb */
+  border-radius: 4px; /* Rounded scrollbar thumb */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.basket-frame .orders-wrapper::-webkit-scrollbar-thumb:hover {
+  background-color: #666; /* Darker on hover */
+}
+
+.basket-frame .orders-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background for the scrollbar track */
+}
+
+.basket-frame .orders-main-wrapper {
+  position: relative;
+  margin-top: 15px; /* Increased margin for separation */
+  width: 100%;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Prevent overflow */
+  border-radius: 10px; /* Rounded corners */
+  background: #ffffff; /* White background for clarity */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.head-mini-text {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.head-main-text .head-main-text-span {
+  color: #45a358;
+  font-family: "Cera Pro";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 70px;
+  text-transform: uppercase;
+}
